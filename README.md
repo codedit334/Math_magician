@@ -33,7 +33,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-Math Magician is an Webapp built using ReactJS.
+Math Magician is project from Microverse module 3, it is a Webapp built using ReactJS.
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML, CSS, NodeJS v18, ReactJS
