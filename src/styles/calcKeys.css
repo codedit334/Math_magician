@@ -1,0 +1,22 @@
+.calcKeys {
+  width: 100%;
+  height: 220px;
+}
+
+.calcKeys table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.calcKeys table td {
+  width: 25%;
+  height: 20%;
+  background-color: lightgray;
+  border: 0.5px solid gray;
+}
+
+.calcKeys table td:nth-child(4),
+.equals {
+  background-color: orange !important;
+}
