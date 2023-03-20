@@ -1,0 +1,14 @@
+.calcinput-display {
+  color: white;
+  background-color: grey;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  height: 23px;
+  direction: rtl;
+}
+
+.calcinput-display::placeholder {
+  color: white;
+  padding: 13px;
+}
