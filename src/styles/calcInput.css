@@ -3,9 +3,10 @@
   background-color: grey;
   border: none;
   padding: 12px 0;
-  width: 100%;
+  width: 95%;
   height: 23px;
   direction: rtl;
+  padding-right: 5%;
 }
 
 .calcinput-display::placeholder {
