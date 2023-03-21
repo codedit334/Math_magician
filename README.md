@@ -170,8 +170,7 @@ To check for js errors run:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Components.
-- Add Events.
+- Add Style.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
