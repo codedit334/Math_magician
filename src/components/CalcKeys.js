@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import CalcInput from './CalcInput';
 import calculate from '../logic/calculate';
 import '../styles/calcKeys.css';
@@ -9,7 +9,6 @@ export default function CalcKeys() {
     next: 0,
     operation: null,
   });
-  useEffect(() => console.log(initialObj), [initialObj]);
 
   return (
     <>
