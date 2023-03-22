@@ -5,8 +5,9 @@
   padding: 12px 0;
   width: 95%;
   height: 23px;
-  direction: rtl;
-  padding-right: 5%;
+
+  /* direction: rtl; */
+  padding-left: 5%;
 }
 
 .calcinput-display::placeholder {
