@@ -6,3 +6,7 @@
   align-items: center;
   gap: 60px;
 }
+
+#text {
+  display: none;
+}

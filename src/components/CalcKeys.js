@@ -11,45 +11,27 @@ export default function CalcKeys() {
   });
 
   const calculatorKeys = [
-    [
-      'AC',
-      '+/-',
-      '%',
-      '÷',
-    ],
-    [
-      '7',
-      '8',
-      '9',
-      'x',
-    ],
-    [
-      '4',
-      '5',
-      '6',
-      '-',
-    ],
-    [
-      '1',
-      '2',
-      '3',
-      '+',
-    ],
-    [
-      '0',
-      '.',
-      '=',
-    ],
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', 'x'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
   ];
 
-  const table = calculatorKeys.map((row) => {
-    const tableData = row.map((data) => `<td ${+data === 0 && 'colspan="2"'} '>${data}</td>`);
+  let table = calculatorKeys.map((row) => {
+    const tableData = row.map(
+      (data) => `<td ${+data === 0 && 'colspan="2"'} >${data}</td>` // eslint-disable-line
+    ); // eslint-disable-line
+
     const finalData = `<tr>${tableData}</tr>`;
+
     return finalData;
   });
 
+  table = table.toString().replace(/,/g, '');
+
   useEffect(() => {
-    document.querySelector('table').innerHTML = table;
+    document.querySelector('tbody').innerHTML = table;
     document.querySelectorAll('td').forEach((element) => {
       element.addEventListener('click', (e) => {
         const clickedBtn = e.target.innerText;
@@ -63,9 +45,10 @@ export default function CalcKeys() {
     <>
       <CalcInput resObj={initialObj} />
       <div className="calcKeys">
-        <table />
+        <table>
+          <tbody />
+        </table>
       </div>
-
     </>
   );
 }
