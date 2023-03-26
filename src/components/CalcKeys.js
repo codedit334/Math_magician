@@ -20,8 +20,8 @@ export default function CalcKeys() {
 
   let table = calculatorKeys.map((row) => {
     const tableData = row.map(
-      (data) => `<td ${+data === 0 && 'colspan="2"'} >${data}</td>` // eslint-disable-line
-    ); // eslint-disable-line
+      (data) => `<td ${+data === 0 && 'colspan="2"'} >${data}</td>`,
+    );
 
     const finalData = `<tr>${tableData}</tr>`;
 
