@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-.calcKeys table td:nth-child(4),
+.calcKeys table td:nth-last-child(1),
 .equals {
   background-color: orange !important;
 }

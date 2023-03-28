@@ -1,0 +1,32 @@
+.home {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  width: 87%;
+  margin: auto;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: lightgrey;
+  box-shadow: 5px 1px 25px 1px #535353;
+}
+
+.card:hover {
+  scale: 1.01;
+}
+
+.card-1,
+.card-4 {
+  justify-self: center;
+  height: auto;
+}
+
+.card-4 {
+  height: 100px;
+}
+
+.card-3 {
+  justify-self: end;
+}
