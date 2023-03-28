@@ -46,7 +46,7 @@ export default function CalcKeys() {
       <CalcInput resObj={initialObj} />
       <div className="calcKeys">
         <table>
-          <tbody />
+          <tbody data-testid="CalcKeysTBody" />
         </table>
       </div>
     </>
