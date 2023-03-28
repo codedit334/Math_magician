@@ -88,7 +88,7 @@ HTML, CSS, NodeJS v18, ReactJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Link](https://codedit334.github.io/Math_magician/build)
+- [Comming soon... ](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
