@@ -170,7 +170,7 @@ To check for js errors run:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Style.
+- Google Analytics.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

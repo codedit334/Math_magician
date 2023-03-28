@@ -1,4 +1,8 @@
 .display-quote {
-  width: 420px;
+  width: 87%;
+  height: 80vh;
+  margin: auto;
+  display: grid;
+  place-items: center;
   font-size: 180%;
 }

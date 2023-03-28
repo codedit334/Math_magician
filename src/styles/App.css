@@ -1,12 +1,59 @@
-.App {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 60px;
+body {
+  background: rgb(77, 144, 120);
+  background:
+    linear-gradient(
+      90deg,
+      rgba(77, 144, 120, 1) 0%,
+      rgba(211, 211, 211, 1) 50%,
+      rgba(139, 87, 92, 1) 100%
+    );
 }
 
-#text {
-  display: none;
+.app {
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav li {
+  list-style: none;
+}
+
+footer a,
+nav li a {
+  color: rgb(236, 236, 236);
+  text-decoration: none;
+}
+
+footer a:visited,
+nav li a:visited {
+  color: rgb(124, 82, 3);
+}
+
+.logo img {
+  width: 350px;
+}
+
+.menu {
+  display: flex;
+  gap: 45px;
+  margin-right: 40px;
+  padding: 10px;
+}
+
+footer {
+  height: 50px;
+  padding: 20px;
+  font-size: 140%;
+  border: 4.5px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
 }
