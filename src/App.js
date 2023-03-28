@@ -30,11 +30,9 @@ function App() {
         <Route path="/quotes" element={<Quotes />} />
       </Routes>
       <footer>
-        Made by
-        &nbsp;
+        Made by &nbsp;
         <a href="https://github.com/codedit334">@codedit334</a>
-        &nbsp;
-        2023
+        &nbsp; 2023
       </footer>
     </div>
   );
