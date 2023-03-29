@@ -8,7 +8,7 @@ export default function Calculator() {
       <h1>
         Let&#39;s do some math!
       </h1>
-      <div className="calculator" data-testid={"Calculator"}>
+      <div className="calculator" data-testid="Calculator">
         <CalcKeys />
       </div>
     </div>
