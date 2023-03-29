@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sould render Calculator Component 1`] = `
+<div
+  className="calculator-page"
+>
+  <h1>
+    Let's do some math!
+  </h1>
+  <div
+    className="calculator"
+    data-testid="Calculator"
+  >
+    <div
+      className="calcinput"
+    >
+      <input
+        className="calcinput-display"
+        data-testid="CalcInput"
+        disabled={true}
+        placeholder={0}
+        value=""
+      />
+    </div>
+    <div
+      className="calcKeys"
+    >
+      <table>
+        <tbody
+          data-testid="CalcKeysTBody"
+        />
+      </table>
+    </div>
+  </div>
+</div>
+`;

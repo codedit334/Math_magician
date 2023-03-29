@@ -88,7 +88,7 @@ HTML, CSS, NodeJS v18, ReactJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Comming soon...
+- [Link](https://math-magician-codedit334.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,6 +166,11 @@ To check for js errors run:
 - Twitter: [@oussedit](https://twitter.com/oussedit)
 - LinkedIn: [Oussama Elabdioui](https://www.linkedin.com/in/oussama-elabdioui-4677a41b6/)
 
+👤 Author2
+
+- GitHub: [@calebchris000](https://github.com/calebchris000)
+- Twitter: [@calebchris000](https://twitter.com/calebchris000)
+- LinkedIn: [Caleb Nwaizu](https://www.linkedin.com/in/caleb-nwaizu-b815aa23b/)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>

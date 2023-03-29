@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sould render CalcKeys Component 1`] = `
+Array [
+  <div
+    className="calcinput"
+  >
+    <input
+      className="calcinput-display"
+      data-testid="CalcInput"
+      disabled={true}
+      placeholder={0}
+      value=""
+    />
+  </div>,
+  <div
+    className="calcKeys"
+  >
+    <table>
+      <tbody
+        data-testid="CalcKeysTBody"
+      />
+    </table>
+  </div>,
+]
+`;

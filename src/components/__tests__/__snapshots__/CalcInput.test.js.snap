@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sould render CalcInput Component 1`] = `
+<div
+  className="calcinput"
+>
+  <input
+    className="calcinput-display"
+    data-testid="CalcInput"
+    disabled={true}
+    placeholder={9}
+    value="9"
+  />
+</div>
+`;
