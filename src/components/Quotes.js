@@ -37,7 +37,7 @@ export default function Quotes() {
 
   if (!spinner) { spinnerStyle = { display: 'none' }; }
   return (
-    <div className="display-quote">
+    <div className="display-quote" data-testid={"Quotes"}>
       <img src={Book} alt="loading..." style={spinnerStyle} />
       <div className="quote">
         {quote}

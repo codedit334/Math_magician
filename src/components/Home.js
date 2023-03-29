@@ -3,7 +3,7 @@ import '../styles/home.css';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home" data-testid={"Home"}>
       <div className="card card-1">
         Welcome to our web app, the ultimate destination for anyone looking to
         improve their day-to-day life with a variety of tools and resources.

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sould render Quotes Component 1`] = `
+<div
+  className="display-quote"
+  data-testid="Quotes"
+>
+  <img
+    alt="loading..."
+    src="Book.gif"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  />
+  <div
+    className="quote"
+  />
+  <span
+    className="error"
+  />
+</div>
+`;
