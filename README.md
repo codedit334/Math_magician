@@ -88,7 +88,7 @@ HTML, CSS, NodeJS v18, ReactJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Link](math-magician-codedit334.netlify.app)
+- [Link](https://math-magician-codedit334.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
